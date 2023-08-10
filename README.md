@@ -8,14 +8,14 @@
   <p align="center">
     A pokedex built with React and using PokeApi as its primary data source
     <br />
-    <a href="https://github.com/PMcht/pokedex-shinydex"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/PMcht/Pokedex-Shinydex"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://pmcht.github.io/pokedex-shinydex/">View Demo</a>
+    <a href="https://pmcht.github.io/Pokedex-Shinydex/">View Demo</a>
     ·
-    <a href="https://github.com/PMcht/pokedex-shinydex/issues">Report Bug</a>
+    <a href="https://github.com/PMcht/Pokedex-Shinydex/issues">Report Bug</a>
     ·
-    <a href="https://github.com/PMcht/pokedex-shinydex/issues">Request Feature</a>
+    <a href="https://github.com/PMcht/Pokedex-Shinydex/issues">Request Feature</a>
   </p>
 </div>
 
@@ -165,7 +165,7 @@ The project is not under License, feel free to use it how you please!
 
 Paul Michaut - [PaulMT.com](PaulMT.com) - hello@paulmt.com
 
-Project Link: [https://github.com/PMcht/pokedex-shinydex](https://github.com/PMcht/pokedex-shinydex)
+Project Link: [https://github.com/PMcht/pokedex-shinydex](https://pmcht.github.io/Pokedex-Shinydex/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

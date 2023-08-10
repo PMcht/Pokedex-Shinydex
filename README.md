@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center" id="readme-top">
-   <img src="./src/game-logos/pokedex.png" alt="Logo" width="auto" height="80">
+   <img src="./public/game-logos/pokedex.png" alt="Logo" width="auto" height="80">
 
   <h3 align="center">Pokedex & ShinyDex</h3>
 
@@ -52,7 +52,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="./src/game-logos/screenshot.PNG" alt="Logo" width="auto">
+<img src="./public/Screenshot.PNG" alt="Logo" width="auto">
 
 Nostalgia is a powerful feeling, mine is particularly triggered when it comes to my childhood game: Pokemon. Many websites require an account to keep track of its pokedex completion and shiny hunt, I aim to get up to speed with Typescript by building one based on localstorage.
 
@@ -103,7 +103,7 @@ _The main method to get this project to work locally goes as follows._
    ```
 3. Start project & Happy coding!
    ```sh
-   npm start
+   npm run dev
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -163,7 +163,7 @@ The project is not under License, feel free to use it how you please!
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [PaulMT.com](PaulMT.com) - contact@paulmt.com
+Paul Michaut - [PaulMT.com](PaulMT.com) - hello@paulmt.com
 
 Project Link: [https://github.com/PMcht/pokedex-shinydex](https://github.com/PMcht/pokedex-shinydex)
 

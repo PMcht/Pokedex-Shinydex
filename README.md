@@ -95,7 +95,7 @@ _The main method to get this project to work locally goes as follows._
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/PMcht/pokedex-shinydex.git
+   git clone https://github.com/PMcht/Pokedex-Shinydex.git
    ```
 2. Install NPM packages
    ```sh

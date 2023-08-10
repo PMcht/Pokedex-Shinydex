@@ -1,0 +1,228 @@
+//Section Display
+.PokemonListContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+
+    max-width: 80rem;
+    margin: 4rem auto 0;
+    height: auto;
+}
+
+
+//Pokemon Card
+.PokemonContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(117, 117, 117, 0.048);
+    border-radius: 1rem;
+    cursor: pointer;
+    img{
+        min-width: 6rem;
+        min-height: 6rem;
+    }
+    .Catched{
+        opacity: .6;
+    }
+}
+
+
+//Caught Pokemon
+.Normal.Caught, .Shiny.Caught{
+    opacity: 0.2;
+  }
+
+
+//Set Shiny
+body{
+    &.Shiny{
+        .Shiny{
+            display: block
+        }
+        .Normal{
+            display: none;
+        }
+    }
+    &:not(.Shiny){
+        .Shiny{
+            display: none
+        }
+        .Normal{
+            display: block
+        }
+    }
+}
+
+
+//Header
+.Header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    min-height: 10rem;
+    margin: 3rem 0;
+    #mainLogo{
+        max-width: 30rem;
+    }
+    .Elements{
+        margin-top: 1rem;
+        min-width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        #versionButton{
+            cursor: pointer;
+            font-weight: bold;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+
+}
+
+
+
+//Button
+.buttonStyling{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    h4{
+        margin-bottom: 0.5rem;;
+    }
+}
+
+.tgl-flat {
+	+ .tgl-btn {
+		padding: 2px;
+		transition: all .2s ease;
+		background: #fff;
+		border: 4px solid #f2f2f2;
+		border-radius: 2em;
+		&:after {
+			transition: all .2s ease;
+			background: #f2f2f2;
+			content: "";
+			border-radius: 1em;
+		}
+	}
+  
+	&:checked + .tgl-btn {
+    border: 4px solid #7FC6A6;
+    &:after {
+      left: 50%;
+      background: #7FC6A6;
+    }
+  }
+}
+
+.tgl {
+	display: none;
+  
+	// add default box-sizing for this scope
+	&,
+  &:after,
+  &:before,
+	& *,
+  & *:after,
+  & *:before,
+	& + .tgl-btn {
+		box-sizing: border-box;
+		&::selection {
+			background: none;
+		}
+	}
+  
+	+ .tgl-btn {
+		outline: 0;
+		display: block;
+		width: 4em;
+		height: 2em;
+		position: relative;
+		cursor: pointer;
+    user-select: none;
+		&:after,
+    &:before {
+			position: relative;
+			display: block;
+			content: "";
+			width: 50%;
+			height: 100%;
+		}
+    
+		&:after {
+			left: 0;
+		}
+    
+		&:before {
+			display: none;
+		}
+	}
+  
+	&:checked + .tgl-btn:after {
+		left: 50%;
+	}
+}
+
+
+
+//GameSelectionMenu
+#GameSelectionMenu{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+    background: var(--background-color);
+    border: 4px solid #6b6b6b;
+    transition: all .5s ease-in;
+
+    .Logos{
+        height: auto;
+        max-width: 50%;
+        margin: auto;
+        gap: 3rem;
+
+        display: flex;
+        
+        align-items:center;
+        justify-content: center;
+        flex-wrap: wrap;
+        .gameLogo{
+            min-width: 15rem;
+            max-height: 7rem;
+            cursor: pointer;
+        }
+    }
+
+}
+
+
+//SearchBar
+.searchTerm {
+    max-width: 30rem;
+    border: 3px solid #c7c7c7;
+    background: #d1d1d1;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px;
+    outline: none;
+    color: var(--text-color);
+  }
+  
+  .searchTerm:focus{
+    color: #000000;
+  }

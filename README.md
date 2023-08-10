@@ -165,7 +165,7 @@ The project is not under License, feel free to use it how you please!
 
 Paul Michaut - [PaulMT.com](PaulMT.com) - hello@paulmt.com
 
-Project Link: [https://github.com/PMcht/pokedex-shinydex](https://pmcht.github.io/Pokedex-Shinydex/)
+Project Link: [https://github.com/PMcht/Pokedex-Shinydex](https://pmcht.github.io/Pokedex-Shinydex/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
